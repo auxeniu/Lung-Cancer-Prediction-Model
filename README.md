@@ -36,7 +36,7 @@ The dataset contains information from 284 individuals (after cleaning duplicates
     -   **Machine Learning:** `scikit-learn`, `imblearn` (for ADASYN), `xgboost`
 -   **Environment:** Jupyter Notebook / Google Colab
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -46,8 +46,8 @@ Ensure you have Python 3 and `pip` installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/lung-cancer-risk-prediction.git
-    cd lung-cancer-risk-prediction
+    git clone https://github.com/auxeniu/Lung-Cancer-Prediction-Model.git
+    cd Lung-Cancer-Prediction-Model
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -63,8 +63,8 @@ Ensure you have Python 3 and `pip` installed on your system.
 
 ### Usage
 
-1.  Download the dataset from [Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/lung-cancer/data) and place the `survey lung cancer.csv` file in the `data/` directory.
-2.  Open and run the Jupyter Notebook `notebooks/lung_cancer_analysis.ipynb` to see the entire analysis, from EDA to model training.
+1.  Download the dataset `survey lung cancer.csv` file.
+2.  Open and run the Jupyter Notebook `lung_cancer_analysis.ipynb` to see the entire analysis, from EDA to model training.
     ```bash
     jupyter notebook notebooks/lung_cancer_analysis.ipynb
     ```
@@ -105,12 +105,7 @@ Eight models were trained and evaluated on a held-out test set. Key results:
 
 -   Experiment with advanced techniques like SMOTE and different undersampling strategies.
 -   Perform hyperparameter tuning on the top-performing models (e.g., Logistic Regression, SVC) to further optimize performance.
--   Deploy the best model as a simple web application using Flask or Streamlit for interactive risk assessment.
 -   Explore deep learning models for comparison.
-
-## 👥 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/lung-cancer-risk-prediction/issues).
 
 ## 📝 License
 
@@ -123,4 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Disclaimer:** This project is for educational and research purposes only. It is **not intended for actual medical diagnosis**. Always consult a healthcare professional for medical advice.
+**Disclaimer:** This project is for educational and research purposes only. It is **not intended for actual medical diagnosis**.
