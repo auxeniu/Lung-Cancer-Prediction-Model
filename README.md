@@ -64,9 +64,9 @@ Ensure you have Python 3 and `pip` installed on your system.
 ### Usage
 
 1.  Download the dataset `survey lung cancer.csv` file.
-2.  Open and run the Jupyter Notebook `lung_cancer_analysis.ipynb` to see the entire analysis, from EDA to model training.
+2.  Open and run the Jupyter Notebook `lung_cancer_prediction_model.ipynb` to see the entire analysis, from EDA to model training.
     ```bash
-    jupyter notebook notebooks/lung_cancer_analysis.ipynb
+    jupyter notebook notebooks/lung_cancer_prediction_model.ipynb
     ```
 
 ## 📈 Key Steps and Results
