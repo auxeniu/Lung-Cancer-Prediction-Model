@@ -1,3 +1,44 @@
+# Lung Cancer Risk Prediction
+
+A machine learning project focused on predicting lung cancer risk from demographic, behavioral, and clinical symptom data. This repository contains the complete workflow from exploratory data analysis (EDA) and feature engineering to model training, evaluation, and selection.
+
+## 📖 Project Description
+
+This project aims to develop a robust classification model to identify individuals at risk of lung cancer based on a set of 15 features, including smoking habits, symptoms like coughing and chest pain, and demographic information. The dataset, sourced from Kaggle, presents a significant class imbalance challenge, which is addressed using the ADASYN resampling technique.
+
+Key aspects of the project include:
+-   **Comprehensive EDA:** Detailed visual and statistical analysis to understand data distributions, correlations, and feature relationships.
+-   **Class Imbalance Mitigation:** Application of ADASYN to generate synthetic samples for the minority class, improving model generalization.
+-   **Extensive Model Comparison:** Evaluation of eight different machine learning algorithms, including Logistic Regression, Random Forest, XGBoost, and Support Vector Classifier.
+-   **Feature Engineering:** Creation of interaction terms to capture complex relationships between symptoms and behaviors.
+
+## 📊 Dataset Overview
+
+The dataset contains information from 284 individuals (after cleaning duplicates) with 16 attributes.
+
+**Target Variable:**
+-   `LUNG_CANCER`: Binary classification (YES/NO)
+
+**Feature Categories:**
+-   **Demographic:** `GENDER`, `AGE`
+-   **Behavioral:** `SMOKING`, `YELLOW_FINGERS`, `ALCOHOL CONSUMING`, `PEER_PRESSURE`
+-   **Medical/Symptoms:** `ANXIETY`, `CHRONIC DISEASE`, `FATIGUE`, `ALLERGY`, `WHEEZING`, `COUGHING`, `SHORTNESS OF BREATH`, `SWALLOWING DIFFICULTY`, `CHEST PAIN`
+
+## 🎯 Project Objectives
+
+1.  **Prediction:** Build a machine learning model to accurately classify individuals as having a high risk of lung cancer or not.
+2.  **Analysis:** Identify the most influential demographic, behavioral, and symptomatic factors contributing to lung cancer risk.
+3.  **Evaluation:** Compare the performance of various classification algorithms to determine the most effective approach.
+4.  **Imbalance Handling:** Address the severe class imbalance to ensure the model is effective at detecting the positive (cancer) class.
+
+## 🛠️ Tech Stack
+
+-   **Programming Language:** Python 3
+-   **Libraries:**
+    -   **Data Handling:** `pandas`, `numpy`
+    -   **Visualization:** `matplotlib`, `seaborn`
+    -   **Machine Learning:** `scikit-learn`, `imblearn` (for ADASYN), `xgboost`
+-   **Environment:** Jupyter Notebook / Google Colab
 
 ## 🚀 Getting Started
 
