@@ -1,8 +1,4 @@
-# Lung Cancer Risk Prediction
-
-A machine learning project focused on predicting lung cancer risk from demographic, behavioral, and clinical symptom data. This repository contains the complete workflow from exploratory data analysis (EDA) and feature engineering to model training, evaluation, and selection.
-
-## 📖 Project Description
+# 📖 Project Description
 
 This project aims to develop a robust classification model to identify individuals at risk of lung cancer based on a set of 15 features, including smoking habits, symptoms like coughing and chest pain, and demographic information. The dataset, sourced from Kaggle, presents a significant class imbalance challenge, which is addressed using the ADASYN resampling technique.
 
