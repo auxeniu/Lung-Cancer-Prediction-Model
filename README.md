@@ -107,9 +107,6 @@ Eight models were trained and evaluated on a held-out test set. Key results:
 -   Perform hyperparameter tuning on the top-performing models (e.g., Logistic Regression, SVC) to further optimize performance.
 -   Explore deep learning models for comparison.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
