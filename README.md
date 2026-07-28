@@ -1,4 +1,4 @@
-# 📖 Project Description
+# Project Description
 
 This project aims to develop a robust classification model to identify individuals at risk of lung cancer based on a set of 15 features, including smoking habits, symptoms like coughing and chest pain, and demographic information. The dataset, sourced from Kaggle, presents a significant class imbalance challenge, which is addressed using the ADASYN resampling technique.
 
@@ -8,7 +8,7 @@ Key aspects of the project include:
 -   **Extensive Model Comparison:** Evaluation of eight different machine learning algorithms, including Logistic Regression, Random Forest, XGBoost, and Support Vector Classifier.
 -   **Feature Engineering:** Creation of interaction terms to capture complex relationships between symptoms and behaviors.
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset contains information from 284 individuals (after cleaning duplicates) with 16 attributes.
 
@@ -20,14 +20,14 @@ The dataset contains information from 284 individuals (after cleaning duplicates
 -   **Behavioral:** `SMOKING`, `YELLOW_FINGERS`, `ALCOHOL CONSUMING`, `PEER_PRESSURE`
 -   **Medical/Symptoms:** `ANXIETY`, `CHRONIC DISEASE`, `FATIGUE`, `ALLERGY`, `WHEEZING`, `COUGHING`, `SHORTNESS OF BREATH`, `SWALLOWING DIFFICULTY`, `CHEST PAIN`
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1.  **Prediction:** Build a machine learning model to accurately classify individuals as having a high risk of lung cancer or not.
 2.  **Analysis:** Identify the most influential demographic, behavioral, and symptomatic factors contributing to lung cancer risk.
 3.  **Evaluation:** Compare the performance of various classification algorithms to determine the most effective approach.
 4.  **Imbalance Handling:** Address the severe class imbalance to ensure the model is effective at detecting the positive (cancer) class.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Programming Language:** Python 3
 -   **Libraries:**
@@ -69,7 +69,7 @@ Ensure you have Python 3 and `pip` installed on your system.
     jupyter notebook notebooks/lung_cancer_prediction_model.ipynb
     ```
 
-## 📈 Key Steps and Results
+## Key Steps and Results
 
 ### 1. Data Preprocessing & Cleaning
 -   Removed 33 duplicate entries.
@@ -101,14 +101,14 @@ Eight models were trained and evaluated on a held-out test set. Key results:
 
 **Final Model Selection:** **Logistic Regression** was chosen as the best model due to its excellent combination of high accuracy (91.1%), high AUC (97.2%), and most importantly, its **consistency and top performance in cross-validation** (91.36% ± 2.23%), making it a reliable and interpretable choice.
 
-## 🔮 Future Work
+## Future Work
 
 -   Experiment with advanced techniques like SMOTE and different undersampling strategies.
 -   Perform hyperparameter tuning on the top-performing models (e.g., Logistic Regression, SVC) to further optimize performance.
 -   Explore deep learning models for comparison.
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 -   Dataset provided by [Nancy Al Aswad on Kaggle](https://www.kaggle.com/datasets/nancyalaswad90/lung-cancer).
 -   Thanks to the open-source community for the invaluable Python libraries used in this project.
